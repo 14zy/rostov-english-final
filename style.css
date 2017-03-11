@@ -1101,7 +1101,7 @@ ul.jaybich-recent-posts li a {
   margin: 0 0 5px 0;
 }
 
-#btnSend {
+#btnSend, .btnSend {
   background-color: #f44336;
   border: none;
   color: white;
@@ -1113,7 +1113,7 @@ ul.jaybich-recent-posts li a {
   width: 300px;
 }
 
-#btnSend:hover {
+#btnSend:hover, .btnSend:hover {
   background-color: #ff685d;
   color: white;
   text-decoration: none;
@@ -1133,7 +1133,7 @@ ul.jaybich-recent-posts li a {
   width: 250px;
 }
 
-#btnAddSchool {
+#btnAddSchool, .btnAddSchool {
   background-color: #f44336;
   border: none;
   color: white;
