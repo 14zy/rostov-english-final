@@ -189,7 +189,7 @@
       </li>
 
       <li class="menuPromo">
-          <a href="language-link_podgotovka.html" onclick="yaCounter24370156.reachGoal('MENU-EGE-OGE'); return true;" title="Сдать ЕГЭ и ОГЭ в Ростове">Подготовка к ЕГЭ и ОГЭ</a>
+          <a href="language-link-podgotovka.html" onclick="yaCounter24370156.reachGoal('MENU-EGE-OGE'); return true;" title="Сдать ЕГЭ и ОГЭ в Ростове">Подготовка к ЕГЭ и ОГЭ</a>
       </li>
 
       <li class="menuPromo">
@@ -206,61 +206,58 @@
 <!-- #header (end) -->
 
 
-    <div id="main">
-      <div id="main-inner">
+div id="sidebar">
+  <div class="widget rounded-10">
 
-        <div id="sidebar">
-          <div class="widget rounded-10">
+<img id='imgLogo' src="language-link/images/logo.png" width="190px" alt='Language Link логотип'>
+<p>
+<strong>Дата основания:</strong>
+<text id="txtYear">1991</text> год</p>
+<p>
+<strong>Адрес:</strong>
+<a href="#address"><text id="txtAddress1">Университетский, 79</text></a>
+</p>
+<p>
+<strong>Телефон:</strong>
+<a id="linkPhone" href="tel:+78632001444"><text id="txtPhone">200-14-44</text></a>
+</p>
+<p>
+<strong>Сайт:</strong>
+<a target='_blank' id="linkWebsite" href="http://www.languagelink.ru"><text id="txtWebsite">www.languagelink.ru</text></a>
+</p>
+<p>
+<strong>Проголосовать:</strong>
+</p>
+<p>
+<div id="ok_shareWidget"></div>
+</p>
+<script>
+!function(d, id, did, st) {
+var js = d.createElement("script");
+js.src = "http://connect.ok.ru/connect.js";
+js.onload = js.onreadystatechange = function() {
+if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+  if (!this.executed) {
+    this.executed = true;
+    setTimeout(function() {
+      OK.CONNECT.insertShareWidget(id, did, st);
+    }, 0);
+  }
+}
+};
+d.documentElement.appendChild(js);
+}(document, "ok_shareWidget", document.URL, "{width:165,height:35,st:'rounded',sz:30,ck:1}");
+</script>
 
-  <img id="imgLogo" src="language-link/images/logo.png" width="190px" alt="Language Link логотип">
-  <p>
-    <strong>Дата основания:</strong>
-    <text id="txtYear">1991</text> год</p>
-  <p>
-    <strong>Адрес:</strong>
-    <a href="#address"><text id="txtAddress1">Университетский, 79</text></a>
-  </p>
-  <p>
-    <strong>Телефон:</strong>
-    <a id="linkPhone" href="tel:+78632001444"><text id="txtPhone">200-14-44</text></a>
-  </p>
-  <p>
-    <strong>Сайт:</strong>
-    <a target="_blank" id="linkWebsite" href="http://www.languagelink.ru"><text id="txtWebsite">www.languagelink.ru</text></a>
-  </p>
-  <p>
-    <strong>Проголосовать:</strong>
-  </p>
-  <p>
-    <div id="ok_shareWidget"></div>
-  </p>
-  <script>
-    !function(d, id, did, st) {
-      var js = d.createElement("script");
-      js.src = "http://connect.ok.ru/connect.js";
-      js.onload = js.onreadystatechange = function() {
-        if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
-          if (!this.executed) {
-            this.executed = true;
-            setTimeout(function() {
-              OK.CONNECT.insertShareWidget(id, did, st);
-            }, 0);
-          }
-        }
-      };
-      d.documentElement.appendChild(js);
-    }(document, "ok_shareWidget", document.URL, "{width:165,height:35,st:'rounded',sz:30,ck:1}");
-  </script>
+<div id="vk_like"></div>
+<script type="text/javascript">
+VK.Widgets.Like("vk_like", {
+type: "button",
+height: 24
+});
+</script>
 
-  <div id="vk_like"></div>
-  <script type="text/javascript">
-    VK.Widgets.Like("vk_like", {
-      type: "button",
-      height: 24
-    });
-  </script>
-
-  </div>
+</div>
 
 
 <!-- <div class="widget widget-application rounded-10">
