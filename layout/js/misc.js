@@ -107,9 +107,9 @@ sendStudent = function() {
     //Email нам
     jQuery.ajax({
       type: "POST",
-      url: "https://mandrillapp.com/api/1.0/messages/send.json",
+      url: "https://hook.integromat.com/ogwyqxq4lytulgenjez0k72ny5w8t4eh",
       data: {
-        'key': 'pyL7NQYaVCP7PkkLq0BnSQ',
+        // 'key': 'pyL7NQYaVCP7PkkLq0BnSQ',
         'message': {
           'from_email': 'robot@rostov-english.ru',
           'from_name': 'Rostov-English.ru',
@@ -134,9 +134,9 @@ sendStudent = function() {
     if (window.schoolEmail !== "" ) {
       jQuery.ajax({
         type: "POST",
-        url: "https://mandrillapp.com/api/1.0/messages/send.json",
+        url: "https://hook.integromat.com/ogwyqxq4lytulgenjez0k72ny5w8t4eh",
         data: {
-          'key': 'pyL7NQYaVCP7PkkLq0BnSQ',
+          // 'key': 'pyL7NQYaVCP7PkkLq0BnSQ',
           'message': {
             'from_email': 'robot@rostov-english.ru',
             'from_name': 'Rostov-English.ru',
