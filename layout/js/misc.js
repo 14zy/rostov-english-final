@@ -39,7 +39,7 @@ $(function() {
     $('#application').css('display', 'none');
   }
 
-  $('#slideshow').cycle({
+  $('.slideshow').cycle({
     fx: 'fade',
     timeout: 6000,
     pager: '#slideshow-nav',
