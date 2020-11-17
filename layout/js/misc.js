@@ -78,7 +78,7 @@ sendStudent = function() {
     var studentEmail = $("#inputEmail").val();
 
     //Отправка в CouchDB
-    $.couch.urlPrefix = "http://178.62.133.139:5994";
+    $.couch.urlPrefix = "http://178.62.133.139:5997";
 
     var doc = {
       _id: studentEmail,
